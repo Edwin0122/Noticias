@@ -49,7 +49,7 @@ export class NoticiasService {
            if (this.categoriaActual===categoria) {
              this.categoriaPage+=1;
            }else{
-            //Comentario
+
             //de lo contrario carga una nueva categoria
              this.categoriaPage=1;
              //Establecemos la categoria actual a la categoria que esta pidiendo
